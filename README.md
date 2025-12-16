@@ -53,7 +53,15 @@ pip install -r requirements.txt
 - 修改 `app/config.py` 中的資料庫連線設定
 
 4. 下載 YOLO 模型
-將模型檔案放置於對應目錄：
+
+從 MEGA 雲端下載模型檔案：
+**[下載連結](https://mega.nz/folder/QQkhmYgY#yIPeXFUzVsRas563N0Ra5g)**
+
+下載後：
+- 解壓縮 `YOLO_MODLE.zip` 到 `static/models/` 目錄
+- 將 `yolov8n-pose.pt` 放置於專案根目錄
+
+完成後目錄結構如下：
 ```
 static/models/YOLO_MODLE/
 ├── pose/yolov8n-pose.pt

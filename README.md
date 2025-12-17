@@ -15,7 +15,7 @@
 
 ## 文件
 
-- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - 完整系統架構文件（交接用）
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - 完整系統架構文件
 - **[CLAUDE.md](./CLAUDE.md)** - Claude Code 開發指引
 
 ## 技術架構

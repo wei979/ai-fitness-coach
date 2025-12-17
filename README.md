@@ -13,6 +13,11 @@
 - **3D 視覺效果**：Three.js 渲染的 3D 場景與角色
 - **訓練計劃追蹤**：個人化訓練進度與數據分析
 
+## 文件
+
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - 完整系統架構文件（交接用）
+- **[CLAUDE.md](./CLAUDE.md)** - Claude Code 開發指引
+
 ## 技術架構
 
 ### 後端
@@ -39,7 +44,7 @@
 
 1. 複製專案
 ```bash
-git clone https://github.com/your-username/ai-fitness-coach.git
+git clone https://github.com/wei979/ai-fitness-coach.git
 cd ai-fitness-coach
 ```
 
@@ -107,6 +112,7 @@ python run.py
 │   └── models/               # 3D 模型與 YOLO 模型
 ├── run.py                    # 應用程式入口
 ├── requirements.txt          # Python 依賴
+├── ARCHITECTURE.md           # 系統架構文件
 └── CLAUDE.md                 # Claude Code 指引
 ```
 
